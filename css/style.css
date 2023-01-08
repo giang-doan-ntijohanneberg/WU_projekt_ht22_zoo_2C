@@ -13,45 +13,46 @@ body{
 }
 
 .head{
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
 .navbar{
-    margin: 10px;
+    margin: 5px;
     display: flex;
     align-items: center;
 }
 
 h1{
-    margin: 20px;
+    margin: 10px;
     font-family: 'Rubik Vinyl', cursive;
     color: rgb(13, 120, 84);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 .li{
     flex: 1;
     text-align: right;
-    margin: 0 60px;
+    margin: auto;
 }
 
 .link{
     padding: 0 50px;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-family: 'Special Elite', cursive;
     color:  rgb(8, 104, 72);
 }
 
 .poster{
     display: flex;
-    margin-top: 80px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-right: 50px;
 }
 
 .left-column, .right-column{
     flex-basis: 50%;
+    padding: 10px;
 }
 
 .right-column img{
@@ -61,33 +62,34 @@ h1{
 
 .left-column{
     margin-top: 40px;
-    margin-right: 200px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 h2, h3{
     font-family: 'Amatic SC', cursive;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 h2{
     font-weight: bolder;
     color:  rgb(80, 206, 164);
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h3{
-    font-size: 3rem;
+    font-size: 2rem;
     color:  rgb(104, 210, 175);;
 }
 
 .opening-hours{
     background:  rgb(9, 63, 45);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
     border: solid;
     margin-top: 5px;
-    text-align: justify;
-    padding: 10px;
+    margin-left: 50px;
+    padding: 5px;
 }
 
 summary{
@@ -119,7 +121,7 @@ summary{
 
 .title{
     text-align: center;
-    margin-left: 600px;    
+    margin-left: 450px;    
 }
 
 .title h4{
