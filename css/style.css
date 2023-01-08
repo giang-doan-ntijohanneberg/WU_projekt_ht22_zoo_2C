@@ -122,6 +122,7 @@ summary{
 .title{
     text-align: center;
     margin-left: 450px;    
+    color:darkgreen;
 }
 
 .title h4{
@@ -135,6 +136,11 @@ summary{
     display: block;
     font-size: 18px;
     font-style: italic;
+    color: rgb(66, 225, 159);
+}
+
+h4{
+    color:darkgreen;
 }
 
 
@@ -143,7 +149,7 @@ summary{
     content: "";
     width: 100px;
     height: 2px;
-    background-color: darkgreen;
+    background-color: rgb(9, 103, 9);
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -159,7 +165,7 @@ summary{
     flex-basis: 580px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(80, 4, 4);
 }
 
 .food:nth-child(5), .food:nth-child(6){
@@ -176,20 +182,20 @@ summary{
     max-width: 180px;
     margin-right: 30px;
     border-radius: 50%;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(8, 83, 48);
     padding: 3px
 }
 
 .food h4{
     text-transform: capitalize;
     font-size: 22px;
-    border-bottom: 1px dashed #333;
+    border-bottom: 1px dashed rgb(58, 5, 5);
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
 
 .food h4 span{
     float: right;
-    color: darkolivegreen;
+    color: rgb(8, 50, 21);
     font-style: italic;
 }
