@@ -121,7 +121,7 @@ summary{
 
 .title{
     text-align: center;
-    margin-left: 450px;    
+    margin-left: 400px;    
     color:darkgreen;
 }
 
@@ -131,6 +131,7 @@ summary{
     position: relative;
     display: inline-block;
 }
+
 
 .title h4 span{
     display: block;
