@@ -104,6 +104,10 @@ summary{
 
 /*menu*/
 
+.turtleinmenu{
+    margin-left: 40px;
+}
+
 .head_meny{
     margin-top: 30px;
 }
@@ -182,3 +186,8 @@ summary{
     padding-bottom: 5px;
 }
 
+.food h4 span{
+    float: right;
+    color: darkolivegreen;
+    font-style: italic;
+}
