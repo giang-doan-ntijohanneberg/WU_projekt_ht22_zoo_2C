@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 
-h1{
+.h1{
     margin: 10px;
     font-family: 'Rubik Vinyl', cursive;
     color: rgb(13, 120, 84);
@@ -198,4 +198,19 @@ h4{
     float: right;
     color: rgb(8, 50, 21);
     font-style: italic;
+}
+
+/*about us*/
+
+.header{
+    display: inline-block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
