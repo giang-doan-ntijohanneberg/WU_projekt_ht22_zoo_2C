@@ -102,21 +102,12 @@ summary{
 
 /*menu*/
 
+/*icon*/
 .turtleinmenu{
     margin-left: 40px;
 }
 
-.wrapper{
-    width: 1200px;
-    margin: 50px auto;
-}
-
-.title{
-    text-align: center;
-    margin-left: 400px;    
-    color:darkgreen;
-}
-
+/*styla ordet 'menu'*/
 .title h4{
     text-transform: capitalize;
     font-size: 36px;
@@ -124,7 +115,7 @@ summary{
     display: inline-block;
 }
 
-
+/*styla 'Vegan Friendly Bakery'*/
 .title h4 span{
     display: block;
     font-size: 18px;
@@ -132,30 +123,34 @@ summary{
     color: rgb(66, 225, 159);
 }
 
-h4{
-    color:darkgreen;
+/*flytta rubriken*/
+.title{
+    text-align: center;
+    margin-left: 400px;    
 }
 
-.menu{
+
+
+.wrapper{
+    width: 1200px;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/*styla postionerna av alla maträtter*/
 .food{
     flex-basis: 580px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(80, 4, 4);
-}
-
-
-.food{
+    border-bottom: 1px solid rgb(47, 3, 3);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+/*styla bilder*/
 .food img{
     max-width: 180px;
     margin-right: 30px;
@@ -164,6 +159,7 @@ h4{
     padding: 3px
 }
 
+/*styla texten bredvid bilden*/
 .food h4{
     text-transform: capitalize;
     font-size: 22px;
@@ -172,17 +168,18 @@ h4{
     padding-bottom: 5px;
 }
 
+/*styla kostnaden*/
 .food h4 span{
     float: right;
     color: rgb(8, 50, 21);
     font-style: italic;
 }
 
-/*about us*/
-
-.header{
-    display: inline-block;
+h4{
+    color:darkgreen;
 }
+
+/*about us*/
 
 .container{
     max-width: 1200px;
@@ -201,14 +198,14 @@ h4{
     box-sizing: border-box;
 }
 
-.teams:hover{
-    background-color: darkcyan;
-    border-radius: 12px;
-}
-
 .teams img{
     width: auto;
     height: 200px;
+}
+
+.teams:hover{
+    background-color: darkcyan;
+    border-radius: 12px;
 }
 
 .name{
