@@ -106,10 +106,6 @@ summary{
     margin-left: 40px;
 }
 
-.head_meny{
-    margin-top: 30px;
-}
-
 .wrapper{
     width: 1200px;
     margin: 50px auto;
@@ -140,18 +136,6 @@ h4{
     color:darkgreen;
 }
 
-
-.title h4::before{
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 2px;
-    background-color: rgb(9, 103, 9);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -165,9 +149,6 @@ h4{
     border-bottom: 1px solid rgb(80, 4, 4);
 }
 
-.food:nth-child(5), .food:nth-child(6){
-    border-bottom: 0;
-}
 
 .food{
     display: flex;
@@ -206,7 +187,7 @@ h4{
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 48px 0;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -217,8 +198,6 @@ h4{
     margin: 10px;
     padding: 22px;
     max-width: 30%;
-    cursor: pointer;
-    transition: 0,4s;
     box-sizing: border-box;
 }
 
@@ -228,7 +207,7 @@ h4{
 }
 
 .teams img{
-    widows: 200px;
+    width: auto;
     height: 200px;
 }
 
