@@ -13,12 +13,6 @@ body{
 }
 
 /*startsidan*/
-/*
-.head{
-    width:100%;
-    margin: auto;
-}
-*/
 
 .navbar{
     margin: 5px;
@@ -38,7 +32,7 @@ body{
     font-family: 'Special Elite', cursive;
     color:  rgb(8, 104, 72);
 }
-/*Zookery*/
+/* rubrik Zookery*/
 h1{
     margin: 10px;
     font-family: 'Rubik Vinyl', cursive;
@@ -51,8 +45,6 @@ h1{
     display: flex;
     margin: 10px 20px 0 10px;
 }
-
-
 
 .left-column, .right-column{
     flex-basis: 50%;
